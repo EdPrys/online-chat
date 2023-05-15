@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #__next {
+  @apply m-0 min-h-full bg-slate-500 text-white
+}
+
+html, body {
+  @apply h-full font-inter;
+}
+
+#__next {
+  @apply flex;
+}
+
+.main {
+  @apply flex-1;
+}
+
+a {
+  @apply text-blue-500 transition-colors;
+  
+  &:hover {
+    @apply text-blue-600 underline;
+  }
+}
+
