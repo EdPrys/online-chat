@@ -17,7 +17,7 @@ const Input: React.FC<Props> = ({ type = "text", placeholder, name, icon }) => {
           variant={icon}
         />
         <input
-          className="w-full py-5 pr-5 pl-16 bg-slade-500 rounded-3xl text-lg placeholder:text-grey-500 text-white"
+          className="w-full py-5 pr-5 pl-16 bg-slate-500 rounded-3xl text-lg placeholder:text-gray-500 text-white"
           type={type}
           placeholder={placeholder}
           name={name}

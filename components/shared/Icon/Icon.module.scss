@@ -1,0 +1,53 @@
+.icon {
+  @apply font-icomoon inline-block transition-colors;
+
+/* use !important to prevent issues with browser extensions that change fonts */
+
+speak: never;
+font-style: normal;
+font-weight: normal;
+font-variant: normal;
+text-transform: none;
+line-height: 1;
+
+/* Better Font Rendering =========== */
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-information:before {
+  content: "\e900";
+}
+.icon-bubble-speech:before {
+  content: "\e901";
+}
+.icon-mail:before {
+  content: "\e902";
+}
+.icon-user:before {
+  content: "\e903";
+}
+.icon-search:before {
+  content: "\e904";
+}
+.icon-chat:before {
+  content: "\e905";
+}
+.icon-remove:before {
+  content: "\e907";
+}
+.icon-plane:before {
+  content: "\e908";
+}
+.icon-power:before {
+  content: "\e90e";
+}
+.icon-attachment:before {
+  content: "\e90f";
+}
+.icon-lock:before {
+  content: "\e912";
+}
+.icon-edit:before {
+  content: "\e914";
+}
