@@ -7,32 +7,27 @@ import Link from "next/dist/client/link";
 const SignIn = () => {
   return (
     <Layout className="flex flex-col">
-      <form className="w-full px-14 pt-11 pb-8 rounded-3xl max-w-2xl m-auto bg-slade-600 border border-grey-500">
+      <form className="w-full px-14 pt-11 pb-8 rounded-3xl max-w-2xl m-auto bg-slate-600 border border-gray-500">
         <Heading>Ласкаво просимо</Heading>
 
-        <Input
-          type="e-mail"
-          name="email"
-          placeholder="Ваша пошта"
-          icon="user"
-        />
+        <Input type="email" name="email" placeholder="Ваша пошта" icon="user" />
 
         <Input
           type="password"
           name="password"
           placeholder="Пароль"
-          icon="chat"
+          icon="lock"
         />
 
-        <div className="text-right mb-7">
-          <Link href="/sign-in">Забули пароль?</Link>
+        <div className="mb-7 text-right text-lg">
+          <Link href="/reset-pass">Забули пароль?</Link>
         </div>
 
         <Button type="submit">Зареєструватись</Button>
 
         <p className="text-lg text-center">
           У вас немає облікового запису?
-          <Link href="/sign-in"> Реєстрація</Link>
+          <Link href="/sign-up"> Реєстрація</Link>
         </p>
       </form>
     </Layout>
