@@ -2,10 +2,10 @@ import React from "react";
 import Icon, { IconVariantType } from "../../Icon/Icon";
 
 type Props = {
-  type?: string;
   placeholder: string;
   name: string;
   icon: IconVariantType;
+  type?: string;
 };
 
 const Input: React.FC<Props> = ({ type = "text", placeholder, name, icon }) => {
