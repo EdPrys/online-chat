@@ -8,16 +8,16 @@ const ResetPass = () => {
   return (
     <Layout className="flex flex-col">
       <form className="w-full px-14 pt-11 pb-8 rounded-3xl max-w-2xl m-auto bg-slate-600 border border-gray-500">
-        <Heading>Забули адресу електронної пошти/пароль?</Heading>
+        <Heading>
+          Забули <br />
+          адресу електронної <br />
+          пошти/пароль?
+        </Heading>
         <p className="mb-8 text-lg text-center">
-          Ми надішлемо вам повідомлення з інструкціями для скидання пароля
+          Ми надішлемо вам повідомлення з інструкціями <br /> для скидання
+          пароля
         </p>
-        <Input
-          type="email"
-          name="email"
-          placeholder="name@example.com"
-          icon="mail"
-        />
+        <Input type="email" name="email" placeholder="name@example.com" />
         <Button type="submit">Зареєструватись</Button>
         <p className="text-lg text-center">
           Згадали пароль? <Link href="/sign-in">Увійти</Link>
