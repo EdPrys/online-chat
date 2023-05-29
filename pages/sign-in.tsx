@@ -55,7 +55,7 @@ const SignIn = () => {
           <Link href="/reset-pass">Забули пароль?</Link>
         </div>
 
-        <Button type="submit">Зареєструватись</Button>
+        <Button type="submit">Увійти</Button>
 
         <p className="text-lg text-center">
           У вас немає облікового запису?
