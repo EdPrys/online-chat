@@ -10,12 +10,10 @@ import * as z from "zod";
 type FormData = z.infer<typeof schema>;
 
 const schema = z.object({
-  name: z.string().min(1, { message: "Введіть Ім'я" }),
   email: z.string().min(1, { message: "Введіть email" }),
   password: z
     .string()
     .min(8, { message: "Пароль має містити мінімум 8 символів" }),
-  confirmPassword: z.string(),
 });
 
 const SignIn = () => {
